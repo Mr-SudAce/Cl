@@ -1,0 +1,60 @@
+body{
+    background-color: gray;
+}
+#clockContainer {
+    position: absolute;
+    /* border: 5px solid black; */
+    border-radius: 50%;
+    box-shadow: 0 0 20px 5px rgb(236, 233, 11);
+    margin: 5rem;
+    left: 25%;
+    background-color: cadetblue;
+    height: 40vw;
+    width: 40vw;
+    background-repeat: no-repeat;
+    /* background-image: url(https://th.bing.com/th/id/R.be8bed0dd337771da3eab8281820435a?rik=NX7DRPmtdeSpxw&riu=http%3a%2f%2fcliparts.co%2fcliparts%2f8c6%2f5Ly%2f8c65Lyrzi.jpg&ehk=4V488aMOGH9or3fZDCTljEB3nPBMw35AOnuvt%2fhT3yM%3d&risl=&pid=ImgRaw&r=0); */
+    background-size: 100%;
+}
+
+#hour,
+#minute,
+#center,
+#second {
+    position: absolute;
+    background: black;
+    border-radius: 1px;
+    transform-origin: bottom;
+}
+
+#center{
+    width: 2.5%;
+    height: 2.5%;
+    border-radius: 50%;
+    top: 46.7%;
+    left: 48.2%;
+}
+
+#hour {
+    width: 1%;
+    height: 27%;
+    top: 21.1%;
+    left: 49%;
+    opacity: 0.8;
+}
+
+#minute {
+    width: 1%;
+    height: 40%;
+    top: 8%;
+    opacity: 0.6;
+    left: 49.3%;
+    background-color: wheat;
+}
+
+#second {
+    width: 0.5%;
+    height: 40%;
+    top: 8%;
+    left: 49.2%;
+    background-color: red;
+}
